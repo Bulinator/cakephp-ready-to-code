@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /bin/
+Disallow: /config/
+Disallow: /webroot/*
+Disallow: /src/
+Disallow: /logs/
+Disallow: /lib/
+Disallow: /plugins/
+Disallow: /vendors/
+Disallow: /leftflow.com/Doors/
