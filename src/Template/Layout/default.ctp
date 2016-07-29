@@ -40,19 +40,19 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <?= $cakeDescription ?>:
         <?= $this->fetch('title') ?>
     </title>
+    
     <?= $this->Html->meta('icon') ?>
 
-    <?= $this->Html->css(
+    <?= $this->Html->css([
             'bootstrap.css',
             'styles.css'
-        ) 
-        
+        ])        
     ?>
     
-    <?= $this->Html->script(
+    <?= $this->Html->script([
             'jquery.min.3.1.0.js',
             'bootstrap.min.js'
-        ) 
+        ]) 
     ?>
 
     <?= $this->fetch('meta') ?>

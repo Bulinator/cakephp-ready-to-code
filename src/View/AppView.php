@@ -27,6 +27,7 @@ class AppView extends View
 
     /**
      * Initialization hook method.
+     * Load common helpers, remove what you didn't need
      *
      * Use this method to add common initialization code like loading helpers.
      *
@@ -36,5 +37,9 @@ class AppView extends View
      */
     public function initialize()
     {
+        $this->loadHelper('Html');
+        $this->loadHelper('Text');
+        $this->loadHelper('Form');
+        $this->loadHelper('Time');        
     }
 }
